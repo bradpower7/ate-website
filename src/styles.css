@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+body {
+	font-family: 'Fira Sans';
+	background-color: #FFFFFF;
+}
+
+
+#nav
+{
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+#all {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#header {
+	width: 100%;
+}	
+	#headerTop {
+		width: 100%;
+		height: 50px;
+		background-color: white;
+	}
+	#headerMiddle {
+		width: 90%;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+		#headerTitle {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+			#headerTitle h1{
+				margin: 0 25px;
+			}
+
+
+		#nav{
+			text-transform: uppercase;
+			//background: blue;
+		}
+			#nav a {
+				text-decoration: none;
+				color: #000000;
+			}
+			#nav ul.nList {
+				list-style-type: none;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				font-size: 12pt;
+				height: 53px;
+				margin: 0;
+			}
+				#nav ul.nList li {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					padding: 0px 15px;
+				}
+				#nav ul.nList li:hover {
+					background-color: rgba(0,0,0,0.1);
+				}
+				
+#mainContent {
+	background: lightgrey;
+}
+	#mainCenter {
+		width: 90%;
+		margin: auto;
+	}
+		#mainImage {
+			height: 400px;
+			margin: auto;
+			background-image: url("kioti1.png");
+			background-size: cover;
+			background-position: 0% 30%;
+		}
+		
+		#about {
+			background: white;
+		}
+			#aboutText {
+				width: 65%;
+				margin: auto;
+				padding: 25px 25px;
+			}
+			#aboutText h2{
+				font-weight: normal;
+				font-size:
+			}
+		#products {
+			height: 400px;
+			margin: auto;
+			background-color: 
+		}
+	
+	
+			
+			
+			
+			
